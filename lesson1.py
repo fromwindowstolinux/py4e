@@ -1,0 +1,1 @@
+print("Try it! Open the Python Interpreter and type 'import this' (without the ')")
