@@ -13,11 +13,16 @@ fh = open(fname)
 count = 0
 for line in fh:
     line = line.rstrip()
+    # print("Line:",line)
     word = line.split()
+    # print("Word:",word)
     # skip blank line to avoid code blow up
     # skip != From
     if line == "" or word[0] != "From" :
         continue
+    # these 2 can combine
+    # print("Skip Blank")
+    # print("Ignore")
     count = count + 1
     # print out the second word which is the entire address of the person who sent the message 
     print(word[1])
