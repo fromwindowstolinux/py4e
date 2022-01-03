@@ -18,11 +18,12 @@ for line in fh:
     # print("Word:",word)
     # skip blank line to avoid code blow up
     # skip != From
-    if line == "" or word[0] != "From" :
-        continue
-    # these 2 can combine
+    # if line == "" : continue
     # print("Skip Blank")
+    # if word[0] != "From" : continue
     # print("Ignore")
+    # these 2 can combine
+    if line == "" or word[0] != "From" : continue
     count = count + 1
     # print out the second word which is the entire address of the person who sent the message 
     print(word[1])
