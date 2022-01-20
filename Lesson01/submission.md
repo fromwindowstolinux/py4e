@@ -1,3 +1,7 @@
-# Submission
+# Submission 1
 
-![Submission](https://imgur.com/tLIfsOK)
+![Imgur](https://imgur.com/a/7fmVc1N)
+
+# Submission 2
+
+![Imgur](https://imgur.com/a/SAtCLja)
