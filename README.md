@@ -24,11 +24,11 @@ Dr. Chuck is actually a racer and has a race car, it is called the SakaiCar. He 
 | [Lesson 5](https://www.py4e.com/lessons/functions) | Functions | Take a brief look at how Python implements the 'store and use later' programming pattern. |
 | [Lesson 6](https://www.py4e.com/lessons/loops) | Loops and Iterations | Look at how Python repeats statements using looping structures. |
 | [Lesson 7](https://www.py4e.com/lessons/strings) | Strings | Look at how Python stores and manipulates textual data using string variables and functions. |
-| [Lesson 8](https://www.py4e.com/lessons/files) | Files | Learn how to open data files on your computer and read through the files using Python. |
+| [Lesson 8](https://www.py4e.com/lessons/files) | Files | Learn how to open data files on the computer and read through the files using Python. |
 | [Lesson 9](https://www.py4e.com/lessons/lists) | Lists | Look at Python's simplest data structure - the list. Lists can store more than one item in a variable. |
 | [Lesson 10](https://www.py4e.com/lessons/dictionary) | Dictionaries | The dictionary data structures allows us to store multiple values in an object and look up the values by their key. |
 | [Lesson 11](https://www.py4e.com/lessons/tuples) | Tuples | The tuple is a Python data structure that is like a simple and efficient list. |
-| [Lesson 12](https://www.py4e.com/lessons/regex) | Regular Expressions | Regular Expressions allow us to search for patterns in strings and extract data from strings using the regular expression programming language. |
+| [Lesson 12](https://www.py4e.com/lessons/regex) | Regular Expressions | Regular Expressions allow to search for patterns in strings and extract data from strings using the regular expression programming language. |
 | [Lesson 13](https://www.py4e.com/lessons/network) | Network Programming | Take a quick look at how data moves across the network using the HyperText Transport Protocol (HTTP) and how we write programs to read data across the network. |
 | [Lesson 14](https://www.py4e.com/lessons/servces) | Using Web Services | Web services allow a program to access data available in a different server. |
 | [Lesson 15](https://www.py4e.com/lessons/Objects) | Object-Oriented Programming | Do a quick look at how Python supports the Object-Oriented programming pattern. |
