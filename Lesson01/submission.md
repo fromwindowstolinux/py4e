@@ -1,7 +1,7 @@
 # Submission 1
 
-![Imgur](https://imgur.com/a/7fmVc1N.png)
+![Imgur](https://imgur.com/Hjwb9V6)
 
 # Submission 2
 
-![Imgur](https://imgur.com/a/SAtCLja.png)
+![Imgur](https://imgur.com/D4KNwsF)
