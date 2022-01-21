@@ -34,3 +34,7 @@ Dr. Chuck is actually a racer and has a race car, it is called the SakaiCar. He 
 | [Lesson 15](https://www.py4e.com/lessons/Objects) | Object-Oriented Programming | Do a quick look at how Python supports the Object-Oriented programming pattern. |
 | [Lesson 16](https://www.py4e.com/lessons/database) | Databases | Databases give very fast random access to large amounts of data. There is a lot of material in this chapter as the learners learn the Structured Query Language (SQL). |
 | [Lesson 17](https://www.py4e.com/lessons/dataviz) | Data Visualization | In this section, Learners learn to scrape data from the network, store the data in a database and then read the data from the database to produce in in-browser visualization of the data. |
+
+# Trello Kanban Tracker
+
+Track your progress using Trello! Simply copy this [PY4E Trello](https://trello.com/b/ZnBKUENQ/py4e) and tailor it to your own use.
