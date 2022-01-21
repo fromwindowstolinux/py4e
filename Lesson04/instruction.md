@@ -14,6 +14,7 @@ Write a program to prompt for a score between 0.0 and 1.0. If the score is out o
 | >=0.7 | C |
 | >=0.6 | D |
 | <0.6 | E | 
+
 If the user enters a value out of range, print a suitable error message and exit. For the test, enter a score of 0.85.
 
 ![Imgur](https://imgur.com/souh0yJ.png)
