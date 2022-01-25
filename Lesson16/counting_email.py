@@ -2,11 +2,13 @@ import sqlite3
 
 # making a connection, check access to the file
 conn = sqlite3.connect('counting_org.sqlite')
+
 # open and send sql command to the cursor and get the response
 cur = conn.cursor()
 
 # Delete the Counts table if there's any
 cur.execute('DROP TABLE IF EXISTS Counts')
+
 # create the Counts database
 cur.execute('CREATE TABLE Counts (org TEXT, count INTEGER)')
 
@@ -18,16 +20,21 @@ for line in file_handle:
     words = line.split('@')
     org = words[1]
     print(org)
+
     # just to verify, opening set of record and '?' is placeholder to get the email
     cur.execute('SELECT count FROM Counts WHERE org = ?', (org,))
+
     # grab the first one and assign to row
     row = cur.fetchone()
+
     # kinda like GET, if there's none of the email then insert one with a value 
     if row is None:
         cur.execute('INSERT INTO Counts (org,count) VALUES (?, 1)', (org,))
+
     # if the row exist, just update the value
     else:
         cur.execute('UPDATE Counts SET count = count + 1 WHERE org = ?', (org,))
+
 # db is keeping the info    
 conn.commit()
 
