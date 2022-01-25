@@ -1,1 +1,1 @@
-
+There is no Autograder for Lesson 15, only Quiz along with the videos, reference and slide.
