@@ -11,18 +11,24 @@ dic = dict()
 for line in handle:
     line = line.rstrip()
 #    print(line)
+
     words = line.split()
 #    print(words)
     if line == "" or words[0] != "From" : continue
 #    print(words)
+
     time = words[5]
 #    print(time)
+
     splitted_time = time.split(":")
 #    print(splitted_time)
+
     hour = splitted_time[0]
 #    print(hour)
+
     dic[hour] = dic.get(hour,0) + 1
 #    print("found", hour, dic[hour], "time")
+
 #print(dic)
 
 temp = sorted(dic.items())
