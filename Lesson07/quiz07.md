@@ -1,0 +1,97 @@
+# Quiz: String
+
+1. What does the following Python Program print out?
+```
+str1 = "Hello"
+str2 = 'there'
+bob = str1 + str2
+print(bob)
+```
+- 0
+- Hello
+- Hellothere
+- Hello there
+
+2. What does the following Python program print out?
+```
+x = '40'
+y = int(x) + 2
+print(y)
+```
+- int402
+- 402
+- 42
+- x2
+
+3. How would you use the index operator [] to print out the letter q from the following string?
+```
+x = 'From marquard@uct.ac.za'
+```
+- print(x[q])
+- print(x[8])
+- print(x[7])
+- print x[-1]
+- print(x[9])
+
+4. How would you use string slicing [:] to print out 'uct' from the following string?
+```
+x = 'From marquard@uct.ac.za'
+```
+- print(x[14:17])
+- print(x[15:3])
+- print(x[14+17])
+- print(x[14:3])
+- print(x[15:18])
+- print(x[14/17])
+
+5. What is the iteration variable in the following Python code?
+```
+for letter in 'banana' :
+    print(letter)
+```
+- for
+- letter
+- print
+- in
+- 'banana'
+
+6. What does the following Python code print out?
+```
+print(len('banana')*7)
+```
+- banana7
+- 0
+- 42
+- bananabananabananabananabananabananabanana
+
+7. How would you print out the following variable in all upper case in Python?
+```
+greet = 'Hello Bob'
+```
+- print(uc($greet));
+- puts(greet.ucase);
+- print(greet.upper())
+- console.log(greet.toUpperCase());
+
+8. Which of the following is not a valid string method in Python?
+- join()
+- startswith()
+- shout()
+- split()
+
+9. What will the following Python code print out?
+```
+data = 'From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008'
+pos = data.find('.')
+print(data[pos:pos+3])
+```
+- Sat
+- uct
+- .ma
+- mar
+
+10. Which of the following string methods removes whitespace from both the beginning and end of a string?
+- strtrunc()
+- wsrem()
+- strip()
+- rltrim()
